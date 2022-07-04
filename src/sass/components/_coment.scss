@@ -1,0 +1,189 @@
+.comments {
+  margin-top: 20px;
+
+  position: relative;
+  left: 5em;
+}
+.comments-container {
+  margin-bottom: 12em;
+}
+.comments-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.comments-container {
+  margin-top: 40px;
+}
+
+.comment-form-title {
+  font-size: 22px;
+}
+
+.comment-form-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background: rgb(116, 72, 133);
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+.comment-form-button:hover:enabled {
+  cursor: pointer;
+  background: rgb(193, 156, 211);
+}
+
+.comment-form-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+  position: absolute;
+}
+
+.comment-form-cancel-button {
+  margin-left: 10px;
+}
+
+.comment {
+  margin-bottom: 5em;
+  /* Rectangle 38 */
+  display: flex;
+  width: 509px;
+  height: 154px;
+
+  padding-top: -20px;
+  padding-left: 2em;
+  background: #fffdf5;
+  box-shadow: 0px 4px 20px rgba(24, 24, 24, 0.05);
+  /* Заказываю постоянно одежду в этом магазине! Хорошие цены, хорошее качество! Приятные менеджеры! Все быстро, доступно, удобно! Спасибо. */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+
+  /* or 20px */
+
+  color: #2e2842;
+}
+
+.comment-image-container {
+  margin-right: 12px;
+}
+
+.comment-image-container img {
+  border-radius: 50px;
+}
+
+.comment-right-part {
+  width: 65%;
+}
+
+.comment-content {
+  display: flex;
+}
+
+.comment-author {
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(78, 128, 227);
+}
+
+.comment-text {
+  font-size: 18px;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 2em;
+}
+
+.c-1 {
+  font-size: 14px;
+  width: 90px;
+  border-radius: 20px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: #c6a9cc;
+  color: rgb(35, 27, 37);
+  cursor: pointer;
+  margin-top: 8px;
+}
+.c-2 {
+  font-size: 14px;
+  width: 130px;
+  border-radius: 20px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: #c6a9cc;
+  color: rgb(35, 27, 37);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.comment-action:hover {
+  text-decoration: underline;
+}
+
+.replies {
+  margin-top: 20px;
+}
+.comment-form-textarea {
+  width: 300px;
+}
+.up {
+  position: relative;
+  top: 9em;
+  left: 6em;
+  bottom: 5em;
+}
+.bg-comment {
+  height: auto;
+}
+.sp {
+}
+.h1 {
+  /* Отзывы наших покупателей */
+  position: relative;
+  left: 3em;
+
+  width: 622px;
+  height: 40px;
+  border-radius: 40px;
+  margin-bottom: 4em;
+  text-align: center;
+  padding-left: 2em;
+  top: 42px;
+  bottom: 1em;
+  background-color: #e6d1eb;
+  box-shadow: 3px rebeccapurple;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 87.3%;
+  /* or 35px */
+  display: flex;
+  align-items: center;
+
+  color: #121212;
+  img {
+    padding-left: 50px;
+    width: 130px;
+    padding-top: 28px;
+    animation: rat 5s infinite;
+  }
+  @keyframes rat {
+    100% {
+      transform: translatex(-13px);
+    }
+    50% {
+      transform: translatex(12px);
+    }
+    0% {
+      transform: translateX(-15px);
+    }
+  }
+}

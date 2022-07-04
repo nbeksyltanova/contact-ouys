@@ -1,0 +1,38 @@
+.section {
+  margin-bottom: 80px;
+
+  & > * ~ * {
+    margin-top: 70px;
+  }
+
+  &__title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+  }
+}
+.section-1 {
+  &__title p {
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(73, 34, 96);
+  }
+  h3 {
+    color: rgb(46, 47, 49);
+  }
+}
+.tit {
+  padding-bottom: 20px;
+
+  /* Часто задаваемые вопросы */
+
+  width: 525px;
+
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 87.3%;
+
+  color: #320852;
+}
